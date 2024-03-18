@@ -1,0 +1,45 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img {
+    width: 450px;
+    height: 650px;
+    border-radius: 8px;
+    margin-top: 125px;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    height: 650px;
+    width: 40%;
+    margin-top: 50px;
+}
+.genresMap {
+    display: flex;
+    width: 580px;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 5px;
+    gap: 40px;
+}
+.genreBox {
+    height: 500px;
+    display: flex;
+}
+.view {
+    margin-top: 70px;
+    width: 60%;
+}
+.light {
+    background-color: #ab9595;
+    color: #000000;
+}
+.dark {
+    background: darkslategray;
+    color: #ffffff;
+}

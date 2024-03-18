@@ -1,0 +1,30 @@
+.Genres {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    column-gap: 1%;
+}
+.light {
+    background-color: #b2acac;
+    color: #000000;
+}
+.dark {
+    background-color: #646363;
+    color: #ffffff;
+}
+.Genre {
+width: 9%;
+    display: flex;
+    justify-content: center;
+}
+.buttonGenre {
+    font-size: 21px;
+    text-decoration: none;
+    color: yellow;
+    cursor: pointer;
+}
+.buttonGenre:hover {
+    text-decoration: underline;
+}
